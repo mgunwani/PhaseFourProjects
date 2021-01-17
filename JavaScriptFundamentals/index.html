@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Hello World</h2>
+    <p>Loading..</p>
+    <div id="message">Loading...</div>
+    <div class="msg">Welcome Everyone..</div>
+    <h2>Bye World</h2>
+    <script>
+        // alert('Hello Everyone!!')
+
+        /*
+        var choice = confirm("Are you new customer?");
+        if (choice == true)
+            alert('Welcome!!')
+        else
+            alert('We will shortly reach out to you.');
+        */
+
+        var age = prompt("Enter your age : ", 18);
+        if (age >= 18) {
+            document.getElementById("message").innerHTML = "You are valid to vote.";
+        }
+        else {
+            document.getElementById("message").innerHTML = "You are not valid to vote.";
+        }
+
+        var message = document.getElementsByClassName('msg').value;
+        console.log(message);
+
+    </script>
+
+
+    <!-- <script src="./1-javascipt-basics.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+
+NodeJS: 
+
+- Server Side JavaScript Framework
+- It performs interaction with Database, FileSystem, Network and so on.
+- It also provide the run time environment to JavaScript.
+
+JavaScript: 
+
+- Loosely-Typed Scripting Language that executes in the user's browser.
+- Helps to perform certain actions over browser.
+- Helps to interact with HTML elements.
+
+Data Types in JavaScript:
+
+Primitive Data Types:
+1. String
+2. Number
+3. Boolean
+4. Null
+5. Undefined
+
+Non-Primitive Data Types:
+1. Object
+2. Date
+3. Array
+
+Popup Boxes:
+
+1. Alert Box
+2. Confirm Box
+3. Prompt Box
+
+
+
+Note(Topics to be discussed..):
+
+1. Annonymous Apporoach using JavaScript:
+Callback Function, Promises and Async-Await
+2. Customize Bootstrap Library
+3. HTML with JavaScript with 1 project...
+
