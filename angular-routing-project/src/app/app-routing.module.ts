@@ -1,3 +1,4 @@
+import { EmployeesComponent } from './employees/employees.component';
 import { UserUpdateComponent } from './user-update/user-update.component';
 import { UserAddComponent } from './user-add/user-add.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
@@ -21,6 +22,7 @@ export const applicationRoutes: Routes = [
     { path: 'user-detail/:id', component: UserDetailComponent },
     { path: 'user-add', component: UserAddComponent },
     { path: 'user-update/:id', component: UserUpdateComponent },
+    { path: 'employees', component: EmployeesComponent },
 
     {
         path: 'support', component: SupportComponent, children: [

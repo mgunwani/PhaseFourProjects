@@ -23,6 +23,7 @@ import { UsersComponent } from './users/users.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { UserAddComponent } from './user-add/user-add.component';
 import { UserUpdateComponent } from './user-update/user-update.component';
+import { EmployeesComponent } from './employees/employees.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { UserUpdateComponent } from './user-update/user-update.component';
     UsersComponent,
     UserDetailComponent,
     UserAddComponent,
-    UserUpdateComponent
+    UserUpdateComponent,
+    EmployeesComponent
   ],
   imports: [
     BrowserModule,

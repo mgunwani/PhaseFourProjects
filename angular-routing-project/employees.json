@@ -3,17 +3,20 @@
         {
             "empId": 101,
             "empName": "King Kochhar",
-            "empSalary": 12000
+            "empSalary": 12000,
+            "empImage": "https://thumbs.dreamstime.com/b/dandelion-white-background-beautiful-yellow-flower-jpg-png-transparent-isolated-wildflowers-182168320.jpg"
         },
         {
-            "empId": 101,
+            "empId": 102,
             "empName": "King Kochhar",
-            "empSalary": 12000
+            "empSalary": 12000,
+            "empImage": "https://thumbs.dreamstime.com/b/dandelion-white-background-beautiful-yellow-flower-jpg-png-transparent-isolated-wildflowers-182168320.jpg"
         },
         {
-            "empId": 101,
+            "empId": 103,
             "empName": "King Kochhar",
-            "empSalary": 12000
+            "empSalary": 12000,
+            "empImage": "https://thumbs.dreamstime.com/b/dandelion-white-background-beautiful-yellow-flower-jpg-png-transparent-isolated-wildflowers-182168320.jpg"
         }
     ]
 }
