@@ -11,7 +11,7 @@
     </ul>
     <div class="card-footer">
         <a routerLink='/users' class="btn btn-secondary">Go Back</a> |
-        <a routerLink='/user-update' class="btn btn-secondary">Update</a> |
+        <a [routerLink]="['/user-update', user.id]" class="btn btn-secondary">Update</a> |
         <button type="submit" (click)="DeleteUser()" class="btn btn-secondary">Delete</button>
     </div>
 </div>

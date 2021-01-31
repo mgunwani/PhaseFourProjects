@@ -20,7 +20,7 @@ export const applicationRoutes: Routes = [
     { path: 'users', component: UsersComponent },
     { path: 'user-detail/:id', component: UserDetailComponent },
     { path: 'user-add', component: UserAddComponent },
-    { path: 'user-update', component: UserUpdateComponent },
+    { path: 'user-update/:id', component: UserUpdateComponent },
 
     {
         path: 'support', component: SupportComponent, children: [

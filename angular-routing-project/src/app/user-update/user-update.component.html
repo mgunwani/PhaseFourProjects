@@ -1,1 +1,19 @@
-<p>user-update works!</p>
+<form style="text-align: left;">
+
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" [(ngModel)]="user.name" name="user.name" />
+    </div>
+
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" [(ngModel)]="user.username" name="user.username" />
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">email</label>
+        <input type="text" class="form-control" [(ngModel)]="user.email" name="user.email" />
+    </div>
+
+    <input type="submit" value="Update User" class="btn btn-primary" (click)="UpdateUser()" />
+</form>
