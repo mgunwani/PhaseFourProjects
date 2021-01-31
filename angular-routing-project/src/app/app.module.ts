@@ -2,6 +2,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { FormsModule } from "@angular/forms";
+
 // Routing Imports
 import { RouterModule } from "@angular/router";
 import { applicationRoutes } from './app-routing.module';
@@ -18,6 +20,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { CustomerSupportComponent } from './customer-support/customer-support.component';
 import { EmployeeSupportComponent } from './employee-support/employee-support.component';
 import { UsersComponent } from './users/users.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
+import { UserAddComponent } from './user-add/user-add.component';
+import { UserUpdateComponent } from './user-update/user-update.component';
 
 @NgModule({
   declarations: [
@@ -29,11 +34,15 @@ import { UsersComponent } from './users/users.component';
     PageNotFoundComponent,
     CustomerSupportComponent,
     EmployeeSupportComponent,
-    UsersComponent
+    UsersComponent,
+    UserDetailComponent,
+    UserAddComponent,
+    UserUpdateComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
+    FormsModule,
     RouterModule.forRoot(applicationRoutes)
   ],
   providers: [],

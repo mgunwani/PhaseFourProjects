@@ -1,3 +1,6 @@
+import { UserUpdateComponent } from './user-update/user-update.component';
+import { UserAddComponent } from './user-add/user-add.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
 import { UsersComponent } from './users/users.component';
 import { CustomerSupportComponent } from './customer-support/customer-support.component';
 import { EmployeeSupportComponent } from './employee-support/employee-support.component';
@@ -15,6 +18,10 @@ export const applicationRoutes: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'users', component: UsersComponent },
+    { path: 'user-detail/:id', component: UserDetailComponent },
+    { path: 'user-add', component: UserAddComponent },
+    { path: 'user-update', component: UserUpdateComponent },
+
     {
         path: 'support', component: SupportComponent, children: [
             { path: 'employee-support', component: EmployeeSupportComponent },
